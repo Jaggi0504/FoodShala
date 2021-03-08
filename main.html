@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> FoodShala </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .navbarUl {
+            list-style-type: none;
+            margin: 0;
+            padding: 30;
+            float: right;
+            margin-right: 10px;
+            color: #0390fc;
+            font-size: 20px;
+
+        }
+
+        .navbar-nav {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .navbarLi {
+            display: inline-block;
+            padding: 22px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar-nav">
+        <ul class="navbarUl">
+            <li class="navbarLi"> <a href="#footer"> About Us </a> </li>
+            <li class="navbarLi"> <a href="#footer"> Restaurants </a> </li>
+            <li class="navbarLi"> <a href="#footer"> Recipes </a> </li>
+            <li class="navbarLi"> <a href="Order/restaurants.php"> Order Now </a> </li>
+        </ul>
+    </div>
+    <h1 class="mainH1"> FoodShala </h1>
+    <div class="logo">
+        <img src="https://res.cloudinary.com/jagdeepsingh/image/upload/v1614847221/FS_xna1ec.png" alt="logo"
+            class="img-responsive img1">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" style="text-align: center;">
+                <img src="https://images.unsplash.com/photo-1592776361282-932899430ada?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDh8fGVhdGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="customer_image" class="img-responsive img2">
+                <h4> Customer </h4>
+                <a href="customer/custLogin.php" class="aCust"> Login </a>
+            </div>
+            <div class="col-md-6" style="text-align: center;">
+                <img src="https://images.unsplash.com/photo-1554679665-f5537f187268?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="restaurant_image" class="img-responsive img2">
+                <h4>Restaurant</h4>
+                <a href="Restaurants/restLogin.php" class="aRest"> Login </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>About Us</h6>
+                        <p class="text-justify">FoodShala.com <i>Craving Delight! </i> A Website that helps you
+                            make your cravings go away.</p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Restaurants</h6>
+                        <ul class="footer-links">
+                            <li>GRILL-INN</li>
+                            <li>BOSTON</li>
+                            <li>BURGASTA</li>
+                            <li>CAKE HOUSE</li>
+                            <li> And counting... </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Recipes</h6>
+                        <ul class="footer-links">
+                            <li>BURGER</li>
+                            <li>PASTA</li>
+                            <li>DAL MAKHNI</li>
+                            <li>CHICKEN KEBAB</li>
+                            <li>And much more...</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by FoodShala </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
